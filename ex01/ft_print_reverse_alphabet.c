@@ -6,13 +6,11 @@
 /*   By: nmdlanags <marvin@42.fr>                   +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/07/10 09:41:09 by nmdlanags         #+#    #+#             */
-/*   Updated: 2020/07/10 11:42:05 by nmdlanags        ###   ########.fr       */
+/*   Updated: 2020/07/10 11:48:57 by nmdlanags        ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 
-#include <unistd.h>
-#include <stdio.h>
 
 void ft_putchar(char n)
 {
@@ -33,10 +31,4 @@ void ft_print_reverse_alphabet(void)
 		t--;
 	
 	}	
-}
-
-int main()
-{
-		ft_print_reverse_alphabet();
-		return (0);
 }
